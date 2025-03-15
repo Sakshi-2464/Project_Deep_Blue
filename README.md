@@ -40,7 +40,6 @@ http://127.0.0.1:5000
 
 ## Landing Page:
 ![Screenshot 2025-03-15 181151](https://github.com/user-attachments/assets/80c57ad3-102e-424a-86a7-7df9d9ba69ae)
-
 ## Sample Image:
 ![pic_1 - Copy](https://github.com/user-attachments/assets/7f14a96e-2627-4d98-a529-2ebf8ef58bf8)
 ## Results:
