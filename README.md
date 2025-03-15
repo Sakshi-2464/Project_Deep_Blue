@@ -41,13 +41,7 @@ http://127.0.0.1:5000
 
 ## Landing Page:
 ![Screenshot 2025-03-15 181151](https://github.com/user-attachments/assets/80c57ad3-102e-424a-86a7-7df9d9ba69ae)
-## Sample Image:
-![pic_1 - Copy](https://github.com/user-attachments/assets/7f14a96e-2627-4d98-a529-2ebf8ef58bf8)
 ## Results:
-![Screenshot 2025-03-15 181720](https://github.com/user-attachments/assets/878c98f5-8605-4fde-a283-5df885dabbf3)
+![Screenshot 2025-03-08 141621](https://github.com/user-attachments/assets/0c80945b-ff25-4f9b-8e6c-9b2e07fbfbe3)
 ## Scan to Try!
 ![Screenshot 2025-03-07 210215](https://github.com/user-attachments/assets/c03fe15f-c14a-4f61-8033-056bbb1ef99c)
-
-
-![Screenshot 2025-03-08 141621](https://github.com/user-attachments/assets/0c80945b-ff25-4f9b-8e6c-9b2e07fbfbe3)
-
