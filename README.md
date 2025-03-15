@@ -1,4 +1,3 @@
-# Project_Deep_Blue
 # Problem Statement: Estimating Physical Attributes and Object Dimensions from Selfies
 This repository contains a Flask-based web application that estimates physical attributes and object dimensions from selfies. The application provides predictions for age, gender, height,weight, bmi for humans detected in image and further estimates object dimensions for the objects detected.
 # Steps to Run the Application
