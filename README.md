@@ -33,6 +33,7 @@ This repository contains a Flask-based web application that estimates physical a
 
    Open your browser and visit:
 http://127.0.0.1:5000
+
 ## Usage
 1. Choose an image from your device or capture a live photo using your webcam.
 2. Click on the Analyze button to process the image.
@@ -44,5 +45,7 @@ http://127.0.0.1:5000
 ![pic_1 - Copy](https://github.com/user-attachments/assets/7f14a96e-2627-4d98-a529-2ebf8ef58bf8)
 ## Results:
 ![Screenshot 2025-03-15 181720](https://github.com/user-attachments/assets/878c98f5-8605-4fde-a283-5df885dabbf3)
+## Scan to Try!
+![Screenshot 2025-03-08 143547](https://github.com/user-attachments/assets/db6bbfb7-250f-4649-a754-69f345d4a721)
 
 
