@@ -15,7 +15,7 @@ This repository contains a Flask-based web application that estimates physical a
 
 1. Extract the ZIP File
    ```bash
-   unzip data.zip
+   unzip Project_Deep_Blue.zip
    ```
 2. Navigate to the Project Directory
    ```bash 
