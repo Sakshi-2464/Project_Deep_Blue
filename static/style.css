@@ -1,0 +1,214 @@
+/* Smooth Gradient Background */
+body {
+    background: radial-gradient(circle at center, #101017, #1a1a2e, #25538f, #3a6fb0, #1a1a2e);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0px;
+    min-height: 100vh;
+}
+
+/* Main Container Styling */
+.container {
+    background: rgba(39, 39, 84, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+    width: 50%;
+    min-width: 350px;
+    max-width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* File Upload & Camera Buttons - Side by Side with OR */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+/* OR Text Styling */
+.or-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+/* Custom File Upload */
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    background: linear-gradient(135deg, #ffcc00, #ff9900);
+    color: #16213e;
+    padding: 12px 18px;
+    border-radius: 7px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.custom-file-upload:hover {
+    background: radial-gradient(circle, #e65101, #fdaa5b);
+    transform: scale(1.1);
+}
+
+/* Buttons Styling */
+button {
+    background: linear-gradient(135deg, #ffcc00, #ff9900);
+    color: #16213e;
+    border: none;
+    padding: 12px 18px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+    margin-top: 7px;
+}
+
+button:hover {
+    background: radial-gradient(circle, #e65101, #fdaa5b);
+    transform: scale(1.1);
+}
+
+/* Result Container */
+#result-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 30px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+/* Individual Result Box */
+.result-card {
+    background: linear-gradient(135deg, #004aa4, #002b6e);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+    padding-top: 5px;
+}
+
+.result-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive Grid Layout */
+.result-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+/* Camera Container */
+#camera-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#cameraFeed {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 12px;
+    display: none;
+    margin-top: 10px;
+}
+
+#captureBtn {
+    margin-top: 10px;
+    padding: 12px;
+    background: linear-gradient(135deg, #ffcc00, #ff9900);
+    color: #16213e;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+/* Image Preview */
+#image-preview-container {
+    display: none;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#imagePreview {
+    max-width: 100%;
+    max-height: 270px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+    align-items: center;
+}
+
+/* Mobile & Responsive Tweaks */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .result-card {
+        width: 90%;
+    }
+
+    button,
+    .custom-file-upload {
+        padding: 12px 18px;
+        font-size: 16px;
+    }
+
+    .button-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.result-card ul {
+    list-style: none; /* Removes default bullets */
+    padding-left: 20px;
+}
+
+.result-card ul li::before {
+    content: "➤"; /* Unicode arrow symbol */
+    color: white; /* Change to any color */
+    font-size: 0.7em;
+    margin-right: 8px;
+}
+
+.result-card li {
+    margin-bottom: 5px;
+}
